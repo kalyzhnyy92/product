@@ -1,0 +1,115 @@
+@media screen and (max-width: 1360px){
+	.main__content > .main__product,
+	.main__content >.main__product:nth-child(5){
+		margin: 15px 0;
+	}
+}
+
+@media screen and (max-width: 1355px){
+	.main__product .main__firm{
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 1340px){
+	.main__product .main__firm{
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 1293px){
+	.main__box{
+		margin-bottom: 20px;
+	}
+	.main__active{
+		flex-direction: column;
+	}
+	.main__product .main__suptext{
+		margin-left: 0;
+	}
+	.main__product .main__card{
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 1220px){
+	.main__product {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.main__product .main__card{
+		max-width: 370px;
+		padding: 10px;
+	}
+	.main__active {
+		flex-direction: initial;
+		justify-content: space-between;
+	}
+	.main__box {
+		margin-bottom: 0;
+	}
+	.main__product .main__tires{
+		padding-left: 55px;
+	}
+}
+
+@media screen and (max-width: 862px){
+	.main__product .main__card {
+		max-width: 300px;
+	}
+	.main__product .main__tires{
+		padding-left: 31px;
+	}
+}
+
+@media screen and (max-width: 702px){
+	.main__product .main__link-compare{
+		font-size: 0;
+	}
+	.main__footer-wrap{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.main__product .main__button{
+		margin: 0 20px;
+		width: 50px;
+	}
+	.main__product .main__linkk{
+		font-size: 0;
+	}
+	.main__product .main__card:hover .main__footer-wrap {
+		height: 85px;
+	}
+	.main__product .main__img-compare, .main__product .main__img-favorites{
+		margin: 0 20px;
+	}
+	.main__product .main__compare{
+		margin: 0;
+	}
+	.main__subtitle > .main__title{
+		font-size: 21px;
+	}
+}
+
+@media screen and (max-width: 671px){
+	.main__product .main__firm{
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.main__subtitle > .main__title {
+    	font-size: 16px;
+	}
+	.main__subtitle > .main__text {
+    	margin-top: 32px;
+    	font-size: 12px;
+	}
+	.main__active {
+		flex-direction: column;
+	}
+	.main__box {
+		margin-bottom: 20px;
+	}
+}
